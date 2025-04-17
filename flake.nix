@@ -59,6 +59,7 @@
           meta = with lib; {
             mainProgram = "torr";
             description = "CLI controller for qBittorrent with autocompletion support";
+            homepage = "https://github.com/mctrxnv/qbHelper";
             license = licenses.mit;
             maintainers = with maintainers; [ mctrxnv ];
             platforms = platforms.all;
